@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.6" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rpa.Curso.Application\Rpa.Curso.Application.csproj" />
+    <ProjectReference Include="..\Rpa.Curso.CrossCutting\Rpa.Curso.CrossCutting.csproj" />
+    <ProjectReference Include="..\Rpa.Curso.Domain\Rpa.Curso.Domain.csproj" />
+    <ProjectReference Include="..\Rpa.Curso.Infrastructure\Rpa.Curso.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

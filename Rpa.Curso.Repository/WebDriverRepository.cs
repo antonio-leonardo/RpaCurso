@@ -184,7 +184,7 @@ namespace Rpa.Curso.Repository
         {
             ChromeOptions options = new();
 
-            options.AddArgument("--headless");
+            //options.AddArgument("--headless");
             options.AddArgument("--disable-webgl");
             options.AddArgument("--disable-software-rasterizer");
             options.AddArgument("--disable-dev-shm-usage");
